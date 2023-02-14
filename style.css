@@ -1,7 +1,18 @@
-body{
-  color: red;
-}
-.me{
+body, .mediv, .meimg{
   display: flex;
   justify-content: center;
+}
+
+.mediv{
+  border: solid red;
+  height: 200px;
+  width: 200px;
+  border-radius: 500px;
+}
+
+.meimg{
+  object-fit: cover;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
 }
