@@ -1,4 +1,4 @@
-body, .mediv, .meimg{
+.mediv, .meimg{
   display: flex;
   justify-content: center;
 }
@@ -15,4 +15,28 @@ body, .mediv, .meimg{
   border-radius: 50%;
   height: 200px;
   width: 200px;
+}
+
+body{
+  margin: 0;
+}
+
+ul{
+  background-color: black;
+  width: 100%vh;
+  margin: 0;
+}
+
+li{
+  display: inline;
+  padding: 16px 12px;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(237, 17, 17);
 }
