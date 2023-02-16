@@ -31,7 +31,7 @@ nav{
   margin: 0;
 }
 
-li{
+.link{
   display: inline;
   padding: 16px 12px;
 }
