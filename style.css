@@ -21,9 +21,13 @@ body{
   margin: 0;
 }
 
-ul{
+nav{
   background-color: black;
   width: 100%vh;
+  margin: 0;
+}
+
+.navbar {
   margin: 0;
 }
 
