@@ -44,3 +44,7 @@ a{
 li a:hover {
   background-color: rgb(237, 17, 17);
 }
+
+.prof{
+  list-style-type: none;
+}
