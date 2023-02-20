@@ -48,3 +48,52 @@ li a:hover {
 .prof{
   list-style-type: none;
 }
+
+.container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card{
+  background-color: grey;
+  width: 270px;
+  margin: 10px;
+  border-radius: 15px;
+}
+
+.card-img{
+  height: 150px;
+  margin-bottom: 15px;
+  background-size: cover;
+  border-radius: 15px 15px 0 0;
+}
+
+.img-1 {
+  background-image: url('/img/dinner-with-death_360.png');
+}
+
+.img-2{
+  background-image: url('/img/mealprep-topia_360.png');
+}
+
+.img-3{
+  background-image: url('/img/wolf-collector_360.jpeg');
+}
+
+.card h2{
+  padding: 10px;
+}
+
+.card p{
+  padding: 10px;
+}
+
+.card a{
+  background-color: black;
+  color: white;
+  padding: 15px 20px;
+  display: block;
+  text-align: center;
+  margin: 20px 50px;
+}
