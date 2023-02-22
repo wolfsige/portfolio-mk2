@@ -1,9 +1,9 @@
 .mediv, .meimg{
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
-
-
 
 .meimg{
   object-fit: cover;
@@ -11,6 +11,12 @@
   height: 200px;
   width: 200px;
   margin-top: 30px;
+}
+
+.job-title{
+  color: white;
+  margin-top: 50px;
+  text-shadow: 2px 4px 4px  aqua;
 }
 
 body{
