@@ -97,3 +97,9 @@ li a:hover {
   text-align: center;
   margin: 20px 50px;
 }
+
+.card:hover{
+  background-color: aqua;
+  transition: .8s;
+  transform: scale(1.05);
+}
