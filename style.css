@@ -3,18 +3,14 @@
   justify-content: center;
 }
 
-.mediv{
-  border: solid red;
-  height: 200px;
-  width: 200px;
-  border-radius: 500px;
-}
+
 
 .meimg{
   object-fit: cover;
   border-radius: 50%;
   height: 200px;
   width: 200px;
+  margin-top: 30px;
 }
 
 body{
@@ -102,4 +98,12 @@ li a:hover {
   background-color: aqua;
   transition: .8s;
   transform: scale(1.05);
+}
+
+.head-style{
+  background-image: url('/img/forest3_720.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
 }
