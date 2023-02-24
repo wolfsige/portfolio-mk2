@@ -24,19 +24,26 @@ body{
 }
 
 nav{
+  color: white;
   background-color: black;
   width: 100%vh;
-  height: 40px;
-  margin: 0;
+  height: 50px;
 }
 
-.navbar {
+.navbar{
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-links{
+  display: flex;
   margin: 0;
+  padding-left: 0;
 }
 
 .link{
-  display: inline;
-  padding: 16px 12px; 
+  list-style-type: none;
+  padding: 16px; 
 }
 
 a{
