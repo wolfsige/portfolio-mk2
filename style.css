@@ -119,6 +119,9 @@ h3 {
 }
 
 .card{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   background-color: grey;
   color: white;
   width: 270px;
@@ -138,11 +141,11 @@ h3 {
 }
 
 .img-2{
-  background-image: url('/img/mealprep-topia_360.png');
+  background-image: url('/img/meal_preptopia.png');
 }
 
 .img-3{
-  background-image: url('/img/wolf-collector_360.jpeg');
+  background-image: url('/img/wolf_collector.png');
 }
 
 .card h2{
